@@ -29,7 +29,7 @@ The simplest form is directly through function calls：
 // import library
 import { compress } from "txx-compress";
 // file can be: `File` object | `HTMLImageElement` instance | URL of the image
-compress(file);
+await compress(file);
 ```
 
 It can also be called by creating a compression instance, Please note the calling order：
