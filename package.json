@@ -1,0 +1,28 @@
+{
+  "name": "txx-compress",
+  "version": "0.0.1",
+  "description": "image compress library",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w --pretty",
+    "build": "rm -rfv ./dist && tsc"
+  },
+  "author": "Joye",
+  "license": "MIT",
+  "keywords": [
+    "image compress",
+    "svg compress"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "pako": "^2.0.4",
+    "svgo": "^2.8.0"
+  }
+}
