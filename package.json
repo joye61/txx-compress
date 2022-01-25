@@ -14,6 +14,10 @@
     "image compress",
     "svg compress"
   ],
+  "bugs": {
+    "url": "https://github.com/joye61/txx-compress/issues"
+  },
+  "homepage": "https://github.com/joye61/txx-compress#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
